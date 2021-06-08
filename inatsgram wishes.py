@@ -192,8 +192,10 @@ login()
 search(reciever1)  # replace with reciever user id
 
 openChat()
+
 if(decider=="1"):
     sendMessage(messageList)
+    
 if(decider=="2"):
     temp = []
     for i in range(int(noOfTime1)):
